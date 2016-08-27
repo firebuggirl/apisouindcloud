@@ -8,8 +8,13 @@
 
 body {
   /*background-color:#000000;*/
-  	background-image: url("../img/forest.jpg");
-  color:#555555; margin: 0;
+  background-image: url("../img/forest.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#555555;
+  margin: 0;
   text-align: center;
   margin: 0;
   /*height: 100vh;*/
