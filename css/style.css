@@ -8,7 +8,7 @@
 
 body {
   /*background-color:#000000;*/
-  background-image: url("../img/forest.jpg");
+  background-image: url("../img/forest.jpg") ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,8 +17,9 @@ body {
   margin: 0;
   text-align: center;
   margin: 0;
-  /*height: 100vh;*/
+  height: 200vh;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 @media screen and (min-width: 38em) {
@@ -71,7 +72,7 @@ body {
     font-size: 112.5%;
   }
 }*/
-.wrapper {
+/*.wrapper {
   width: 90%;
   max-width: 1200px;
 
@@ -214,6 +215,10 @@ h1 {
   background: #9c3538;
   background: rgba(19, 19, 19, 0.22);
 }
+
+#play{
+  fill: #ffffff;
+}
 .sc-player .sc-controls a:after {
   content: '';
   display: block;
@@ -223,7 +228,8 @@ h1 {
   left: 50%;
   margin-left: -50px;
   z-index: 1;
-  background: url('//nicholaspetersen.is/wp-content/themes/v3/images/play.png');
+  /*background: url('//nicholaspetersen.is/wp-content/themes/v3/images/play.png');*/
+  background: url('../img/play.svg');
   background-position: top;
   background-size: 100px auto;
   border-radius: 50%;
