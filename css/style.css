@@ -348,6 +348,7 @@ h1 {
   position: relative;
   width: 100%;
   overflow: auto;
+  z-index: 20;
 }
 .sc-player ol.sc-trackslist li {
   width: 100%;
